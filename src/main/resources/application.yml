@@ -1,0 +1,14 @@
+spring:
+    application:
+        name: Banking-App
+    datasource:
+        url: jdbc:mysql://localhost:3306/banking_app
+        username: root
+        password: NeyMar#N10
+    jpa:
+        hibernate:
+            ddl-auto: update
+        properties:
+            hibernate:
+                format_sql: true
+        show-sql: true
